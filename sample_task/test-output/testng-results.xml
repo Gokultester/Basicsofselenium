@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55" started-at="2022-05-11T10:46:26Z" finished-at="2022-05-11T10:46:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="55" started-at="2022-05-11T10:46:26Z" finished-at="2022-05-11T10:46:26Z">
+      <class name="crossbrowser_reports.Reports">
+        <test-method status="FAIL" signature="setup(java.lang.String)[pri:0, instance:crossbrowser_reports.Reports@71318ec4]" name="setup" is-config="true" duration-ms="0" started-at="2022-05-11T16:16:26Z" finished-at="2022-05-11T16:16:26Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method setup requires 1 parameters but 0 were supplied in the @Configuration annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method setup requires 1 parameters but 0 were supplied in the @Configuration annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:193)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:129)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:378)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:202)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:624)
+	at org.testng.TestRunner.run(TestRunner.java:592)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="testparameter()[pri:0, instance:crossbrowser_reports.Reports@71318ec4]" name="testparameter" duration-ms="10" started-at="2022-05-11T16:16:26Z" finished-at="2022-05-11T16:16:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparameter -->
+      </class> <!-- crossbrowser_reports.Reports -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
